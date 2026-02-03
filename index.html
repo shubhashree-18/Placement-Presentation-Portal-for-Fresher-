@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Placement Preparation Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Placement Preparation Portal</h1>
+        <p>For Freshers | Aptitude | Technical | HR</p>
+    </header>
+
+    <nav>
+        <a href="#aptitude">Aptitude</a>
+        <a href="#technical">Technical</a>
+        <a href="#hr">HR Interview</a>
+        <a href="#mock">Mock Test</a>
+    </nav>
+
+    <section class="card" id="aptitude">
+        <h2>Aptitude Preparation</h2>
+        <ul>
+            <li>Quantitative Aptitude</li>
+            <li>Logical Reasoning</li>
+            <li>Verbal Ability</li>
+        </ul>
+        <button onclick="startTest('Aptitude')">Start Aptitude Test</button>
+    </section>
+
+    <section class="card" id="technical">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Basics of Programming</li>
+            <li>Mechanical / Core Subjects</li>
+        </ul>
+        <button onclick="startTest('Technical')">Start Technical Test</button>
+    </section>
+
+    <section class="card" id="hr">
+        <h2>HR Interview Questions</h2>
+        <ul>
+            <li>Tell me about yourself</li>
+            <li>Strengths & Weakness</li>
+            <li>Why should we hire you?</li>
+        </ul>
+        <button onclick="showTips()">View HR Tips</button>
+    </section>
+
+    <section class="card" id="mock">
+        <h2>Mock Test</h2>
+        <p>Take a full placement mock test to evaluate yourself.</p>
+        <button onclick="startMock()">Start Mock Test</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Placement Preparation Portal | Designed for Freshers</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
